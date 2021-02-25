@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Helmet } from "react-helmet";
+
+import FrequentOrderCards from "./components/frequent-order-cards/frequent-order-cards.component";
+import FoodItemsOverview from "./components/food-items-overview/food-items-overview.component";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='App'>
+			<Helmet>
+				<link rel='preconnect' href='https://fonts.gstatic.com' />
+				<link
+					href='https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'
+					rel='stylesheet'
+				/>
+			</Helmet>
+
+			<FrequentOrderCards />
+			<FoodItemsOverview />
+		</div>
+	);
 }
 
 export default App;
