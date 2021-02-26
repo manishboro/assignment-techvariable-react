@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.js": "/assignment-techvariable-react-prod/static/js/main.18894dc8.chunk.js",
+    "main.js.map": "/assignment-techvariable-react-prod/static/js/main.18894dc8.chunk.js.map",
+    "runtime-main.js": "/assignment-techvariable-react-prod/static/js/runtime-main.16dd7450.js",
+    "runtime-main.js.map": "/assignment-techvariable-react-prod/static/js/runtime-main.16dd7450.js.map",
+    "static/css/2.4f514cb3.chunk.css": "/assignment-techvariable-react-prod/static/css/2.4f514cb3.chunk.css",
+    "static/js/2.bde5b26c.chunk.js": "/assignment-techvariable-react-prod/static/js/2.bde5b26c.chunk.js",
+    "static/js/2.bde5b26c.chunk.js.map": "/assignment-techvariable-react-prod/static/js/2.bde5b26c.chunk.js.map",
+    "index.html": "/assignment-techvariable-react-prod/index.html",
+    "static/css/2.4f514cb3.chunk.css.map": "/assignment-techvariable-react-prod/static/css/2.4f514cb3.chunk.css.map",
+    "static/js/2.bde5b26c.chunk.js.LICENSE.txt": "/assignment-techvariable-react-prod/static/js/2.bde5b26c.chunk.js.LICENSE.txt",
+    "static/media/barbeque_delight.dab1e1e1.webp": "/assignment-techvariable-react-prod/static/media/barbeque_delight.dab1e1e1.webp",
+    "static/media/fat_belly.2a7d144f.webp": "/assignment-techvariable-react-prod/static/media/fat_belly.2a7d144f.webp",
+    "static/media/hotel_saravana.dc36b1b7.webp": "/assignment-techvariable-react-prod/static/media/hotel_saravana.dc36b1b7.webp",
+    "static/media/loyans.58e5323e.webp": "/assignment-techvariable-react-prod/static/media/loyans.58e5323e.webp",
+    "static/media/malabar_hotel.cc755240.webp": "/assignment-techvariable-react-prod/static/media/malabar_hotel.cc755240.webp",
+    "static/media/meat_and_eat.ba9f08cb.webp": "/assignment-techvariable-react-prod/static/media/meat_and_eat.ba9f08cb.webp",
+    "static/media/punjabi_dhaba.f320e160.webp": "/assignment-techvariable-react-prod/static/media/punjabi_dhaba.f320e160.webp",
+    "static/media/styles.css": "/assignment-techvariable-react-prod/static/media/revicons.e8746a62.woff",
+    "static/media/table_top.9329dc79.webp": "/assignment-techvariable-react-prod/static/media/table_top.9329dc79.webp",
+    "static/media/the_corner_cafe.83bc01ec.webp": "/assignment-techvariable-react-prod/static/media/the_corner_cafe.83bc01ec.webp",
+    "static/media/the_food_box_club.c485b6c6.webp": "/assignment-techvariable-react-prod/static/media/the_food_box_club.c485b6c6.webp",
+    "static/media/the_roof_top.d8f5e091.webp": "/assignment-techvariable-react-prod/static/media/the_roof_top.d8f5e091.webp",
+    "static/media/the_steaming_mugs.38865e78.webp": "/assignment-techvariable-react-prod/static/media/the_steaming_mugs.38865e78.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16dd7450.js",
+    "static/css/2.4f514cb3.chunk.css",
+    "static/js/2.bde5b26c.chunk.js",
+    "static/js/main.18894dc8.chunk.js"
+  ]
+}
