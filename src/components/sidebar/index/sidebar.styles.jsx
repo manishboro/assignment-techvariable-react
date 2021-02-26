@@ -17,11 +17,13 @@ export const useStyles = makeStyles((theme) => ({
 		alignItems: "center",
 		borderBottom: `1px solid ${palette.borderColor}`,
 		height: "6rem",
-		padding: "0 1.5rem",
+		padding: "0 1rem 0 0",
+
+		"@media (max-width: 749px)": { padding: "0 1.5rem" },
 	},
 
 	heading: {
-		fontSize: typography.fontSizePrimary,
+		fontSize: typography.fontSizeHeading,
 		textTransform: "uppercase",
 		fontWeight: 600,
 		fontFamily: typography.fontPrimary,

@@ -11,7 +11,7 @@ export const useStyles = makeStyles((theme) => ({
 	},
 
 	heading: {
-		fontSize: typography.fontSizePrimary,
+		fontSize: typography.fontSizeHeading,
 		textTransform: "uppercase",
 		fontWeight: 600,
 		fontFamily: typography.fontPrimary,
@@ -81,7 +81,7 @@ export const useStyles = makeStyles((theme) => ({
 
 	innerContainer_2_2: {
 		display: "grid",
-		gridTemplateColumns: "repeat(auto-fill, minmax(26rem, 1fr))",
+		gridTemplateColumns: "repeat(auto-fill, minmax(28rem, 1fr))",
 		placeItems: "center",
 		gap: "2rem 1rem",
 		padding: "1rem",

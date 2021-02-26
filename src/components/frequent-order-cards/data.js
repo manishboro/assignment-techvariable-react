@@ -1,4 +1,7 @@
-import FoodItem from "../../static/images/food-item-1.jpeg";
+import HotelSaravana from "../../static/images/hotel_saravana.webp";
+import BarbequeDelight from "../../static/images/barbeque_delight.webp";
+import MalabarHotel from "../../static/images/malabar_hotel.webp";
+import PunjabiDhaba from "../../static/images/punjabi_dhaba.webp";
 
 export const frequentOrdersSliderSettings = {
 	desktop: {
@@ -19,30 +22,32 @@ export const frequentOrdersSliderSettings = {
 	},
 };
 
-export const frequentOrdersData = [
+const frequentOrdersData = [
 	{
 		id: 1,
-		image: FoodItem,
+		image: HotelSaravana,
 		hotelName: "Hotel Saravana Delight",
 		hotelLocation: "Indra nagar",
 	},
 	{
 		id: 2,
-		image: FoodItem,
+		image: BarbequeDelight,
 		hotelName: "Barbeque Delight",
 		hotelLocation: "Venkatapura",
 	},
 	{
 		id: 3,
-		image: FoodItem,
+		image: MalabarHotel,
 		hotelName: "Malabar Hotel",
 		hotelLocation: "Koramangala",
 		discount: "60%",
 	},
 	{
 		id: 4,
-		image: FoodItem,
+		image: PunjabiDhaba,
 		hotelName: "Punjabi Dhaba",
 		hotelLocation: "Teachers colony",
 	},
 ];
+
+export const getFrequentOrdersData = () => frequentOrdersData;

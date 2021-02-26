@@ -7,7 +7,7 @@ import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight";
 
 import CardFrequentlyOrdered from "../card-frequent-order/card-frequent-order.component";
 import { useStyles } from "./frequent-order-cards.styles";
-import { frequentOrdersData, frequentOrdersSliderSettings } from "./data";
+import { frequentOrdersSliderSettings, getFrequentOrdersData } from "./data";
 
 const CustomArrow = ({ onClick, ...rest }) => {
 	const { direction } = rest;
@@ -22,6 +22,8 @@ const CustomArrow = ({ onClick, ...rest }) => {
 
 export default function FrequentOrderCards() {
 	const classes = useStyles();
+
+	const frequentOrdersData = getFrequentOrdersData();
 
 	return (
 		<section className={classes.root}>

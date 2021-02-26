@@ -14,7 +14,7 @@ export const useStyles = makeStyles((theme) => ({
 
 	imageContainer: {
 		width: "100%",
-		height: "180px",
+		height: "16rem",
 		borderBottom: `1px solid ${palette.borderColor}`,
 	},
 
